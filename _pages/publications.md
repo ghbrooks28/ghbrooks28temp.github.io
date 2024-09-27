@@ -2,12 +2,13 @@
 layout: page
 permalink: /publications/
 title: research
-description: preprints
+description:
 nav: true
 nav_order: 2
 ---
-
 <!-- _pages/publications.md -->
+
+##### preprints
 
 <!-- Bibsearch Feature -->
 
@@ -15,6 +16,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+        {% bibliography %}
 
 </div>
