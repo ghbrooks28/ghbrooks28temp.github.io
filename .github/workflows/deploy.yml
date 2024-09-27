@@ -94,5 +94,5 @@ jobs:
         with:
           token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
           branch: gh-pages
-          folder: build
-          clean: true
+          folder: _site
+          
