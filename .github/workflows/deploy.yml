@@ -90,7 +90,7 @@ jobs:
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4.0.0
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
           branch: gh-pages
